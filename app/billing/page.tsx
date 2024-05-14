@@ -10,6 +10,7 @@ import prisma from "../lib/db";
 import { Button } from "@/components/ui/button";
 import { CreateStripeAccoutnLink, GetStripeDashboardLink } from "../actions";
 import { Submitbutton } from "../components/SubmitButtons";
+import { unstable_noStore as noStore } from "next/cache";
 
 async function getData(userId: string) {
   const data = await prisma.user.findUnique({
@@ -25,6 +26,7 @@ async function getData(userId: string) {
 }
 
 export default async function BillingRoute() {
+  noStore();
   const { getUser } = getKindeServerSession();
   const user = await getUser();
 

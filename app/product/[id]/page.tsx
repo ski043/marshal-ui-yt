@@ -3,6 +3,7 @@ import { ProductDescription } from "@/app/components/ProductDescription";
 import { BuyButton } from "@/app/components/SubmitButtons";
 import prisma from "@/app/lib/db";
 import { Button } from "@/components/ui/button";
+import { unstable_noStore as noStore } from "next/cache";
 
 import {
   Carousel,
@@ -44,6 +45,7 @@ export default async function ProductPage({
 }: {
   params: { id: string };
 }) {
+  noStore();
   const data = await getData(params.id);
   return (
     <section className="mx-auto px-4  lg:mt-10 max-w-7xl lg:px-8 lg:grid lg:grid-rows-1 lg:grid-cols-7 lg:gap-x-8 lg:gap-y-10 xl:gap-x-16">
