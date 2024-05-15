@@ -1,6 +1,6 @@
 import prisma from "@/app/lib/db";
 import { stripe } from "@/app/lib/stripe";
-import { Fascinate } from "next/font/google";
+
 import { headers } from "next/headers";
 
 export async function POST(req: Request) {
