@@ -1,3 +1,49 @@
+🚀 Today we are going to create a Digital Marketplace using Next.js 14, Stripe Connect, Kinde, Prisma, Supabase, and Tailwind! Learn step-by-step and elevate your development skills.
+
+🚀 Kinde Auth: https://dub.sh/xeU8r3v
+
+👨🏻‍💻 GitHub Repository: https://www.janmarshal.com/courses/create-a-saas-application-with-next-js-14-stripe-kinde-prisma-supabase-and-tailwind
+
+🌍 My Website: https://www.janmarshal.com
+
+✅ Follow me on Twitter: https://twitter.com/janmarshaldev
+
+📧 Business ONLY: jan@alenix.de 
+
+Features: 
+- 🌐 Nextjs App Router
+- 🔐 Kinde Authentication with MFA
+- 📧 Passwordless Auth
+- 🔑 OAuth (Google and GitHub)
+- 💰Payments using Stripe 
+- 🏪 Marketplace Functionality using Stripe Connect
+- 🪝 Implementation of Stripe Webhooks
+- 💿 Supabase Database
+- 💨 Prisma Orm
+- ✅ Server Validation using Zod
+- 🎨 Styling with Tailwindcss and Shadcn UI
+- 📧 Sending Emails with Resend
+- 🖼️ Creating Beautiful Emails using React-Email
+- 😶‍🌫️ Deployment to vercel
+
+- React Streaming
+- Stripe Express Dashboard
+- Stripe Checkout page
+- Server side implementation 
+
+
+Resources used:
+- Next.js: https://nextjs.org
+- Kinde: https://dub.sh/xeU8r3v
+- Tailwind.css: https://tailwindcss.com
+- Shadcn/UI: https://ui.shadcn.com
+- Stripe: https://stripe.com
+- Prisma: https://prisma.io
+- Supabase: https://supabase.com
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
