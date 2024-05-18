@@ -2,7 +2,7 @@
 
 🚀 Kinde Auth: https://dub.sh/xeU8r3v
 
-👨🏻‍💻 GitHub Repository: https://www.janmarshal.com/courses/create-a-saas-application-with-next-js-14-stripe-kinde-prisma-supabase-and-tailwind
+👨🏻‍💻 GitHub Repository: https://janmarshal.com/courses/create-a-digital-marketplace-using-next-js-14-stripe-connect-kinde-prisma-and-supabase
 
 🌍 My Website: https://www.janmarshal.com
 
